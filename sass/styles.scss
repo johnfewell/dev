@@ -120,7 +120,7 @@ a:hover {
 .portfolio > ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   list-style: none;
   padding-inline-start: 0px;
 }
