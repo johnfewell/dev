@@ -1,5 +1,5 @@
 /* Typography imported from Google Fonts */
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400");
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400');
 @tailwind preflight;
 h1,
 h2,
@@ -38,17 +38,18 @@ a:hover {
 /* Styles for the hero image */
 .hero {
   /* Photo by mnm.all on Unsplash */
-  background: url("https://images.unsplash.com/photo-1518176258769-f227c798150e") center;
+  background: url('https://images.unsplash.com/photo-1518176258769-f227c798150e')
+    center;
   background-size: cover;
   padding: 4rem 2rem;
   /* grid styles */
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(240px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  -ms-grid-columns: (minmax(240px, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .hero > * {
@@ -70,26 +71,26 @@ a:hover {
   margin-top: 0.75rem;
 }
 
-/* breweries styles */
-.breweries {
+/* portfolio styles */
+.portfolio {
   padding: 2rem;
 }
 
-.breweries > ul {
+.portfolio > ul {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  -ms-grid-columns: (minmax(320px, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 1rem;
   list-style: none;
 }
 
-.breweries > ul > li {
+.portfolio > ul > li {
   border: 1px solid #e2e2e2;
   border-radius: 0.5rem;
 }
 
-.breweries > ul > li > figure {
+.portfolio > ul > li > figure {
   max-height: 220px;
   overflow: hidden;
   border-top-left-radius: 0.5rem;
@@ -97,31 +98,31 @@ a:hover {
   position: relative;
 }
 
-.breweries > ul > li > figure > img {
+.portfolio > ul > li > figure > img {
   width: 100%;
 }
 
-.breweries > ul > li > figure > figcaption {
+.portfolio > ul > li > figure > figcaption {
   position: absolute;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
 }
 
-.breweries > ul > li > figure > figcaption > h3 {
+.portfolio > ul > li > figure > figcaption > h3 {
   color: white;
   padding: 0.75rem;
   font-size: 1.25rem;
 }
 
-.breweries > ul > li > p {
+.portfolio > ul > li > p {
   font-size: 1rem;
   line-height: 1.5;
   padding: 1rem 0.75rem;
   color: #666666;
 }
 
-.breweries > ul > li > a {
+.portfolio > ul > li > a {
   padding: 0.5rem 1rem;
   margin: 0.5rem;
 }

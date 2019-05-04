@@ -98,8 +98,8 @@ a:hover {
   @apply .shadow;
 }
 
-/* breweries styles */
-.breweries {
+/* portfolio styles */
+.portfolio {
   min-height: 100vh;
   padding: 2rem;
   background: #feac5e; /* fallback for old browsers */
@@ -117,7 +117,7 @@ a:hover {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.breweries > ul {
+.portfolio > ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 1rem;
@@ -125,7 +125,7 @@ a:hover {
   padding-inline-start: 0px;
 }
 
-.breweries > ul > li {
+.portfolio > ul > li {
   // border: 1px solid #e2e2e2;
   border-radius: 0.5rem;
   background: #e0eafc; /* fallback for old browsers */
@@ -142,7 +142,7 @@ a:hover {
   @apply .shadow;
 }
 
-.breweries > ul > li > figure {
+.portfolio > ul > li > figure {
   max-height: 220px;
   overflow: hidden;
   border-top-left-radius: 0.5rem;
@@ -150,31 +150,31 @@ a:hover {
   position: relative;
 }
 
-.breweries > ul > li > figure > img {
+.portfolio > ul > li > figure > img {
   width: 100%;
 }
 
-.breweries > ul > li > figure > figcaption {
+.portfolio > ul > li > figure > figcaption {
   position: absolute;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
 }
 
-.breweries > ul > li > figure > figcaption > h3 {
+.portfolio > ul > li > figure > figcaption > h3 {
   color: white;
   padding: 0.75rem;
   font-size: 1.25rem;
 }
 
-.breweries > ul > li > p {
+.portfolio > ul > li > p {
   font-size: 1rem;
   line-height: 1.5;
   padding: 1rem 0.75rem;
   color: #666666;
 }
 
-.breweries > ul > li > a {
+.portfolio > ul > li > a {
   padding: 0.5rem 1rem;
   margin: 0.5rem;
 }
