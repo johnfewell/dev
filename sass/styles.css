@@ -37,9 +37,6 @@ a:hover {
 
 /* Styles for the hero image */
 .hero {
-  /* Photo by mnm.all on Unsplash */
-  background: url('https://images.unsplash.com/photo-1518176258769-f227c798150e')
-    center;
   background-size: cover;
   padding: 4rem 2rem;
   /* grid styles */
@@ -59,6 +56,12 @@ a:hover {
 .hero > h1 {
   font-size: 4rem;
   padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .hero > h1 {
+    font-size: 3.5rem;
+  }
 }
 
 .hero > article > p {
